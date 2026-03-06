@@ -14,12 +14,7 @@
 
 ## 📦 安裝與使用方式 (Installation)
 
-目前為輕量化教學版本，無需透過 pip 安裝：
+請開啟樹莓派或電腦的終端機（Terminal），輸入以下指令直接透過 pip 從 GitHub 進行全域安裝：
 
-1. 點擊本專案上方的 **Code** -> **Download ZIP** 下載檔案。
-2. 將解壓縮後的 `uscdrone.py` 檔案，放到你準備撰寫程式的**同一個資料夾**內。
-3. 在你的 Python 檔案開頭引入：
-   ```python
-   from uscdrone import UscDrone
-
-
+```bash
+pip install git+[https://github.com/bob1666/uscdrone.git](https://github.com/bob1666/uscdrone.git) --break-system-packages
